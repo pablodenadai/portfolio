@@ -1,0 +1,13 @@
+<div class="container companies">
+	<h2>Companies I have worked with</h2>
+
+	<div class="row">
+		<div class="col-xs-6 col-sm-4" ng-repeat="key in companies | keys">
+			<div class="company">
+				<div class="img" ng-style="{ 'background-image': 'url(./images/companies/' + companies[key] + ')' }" data-title="{{ key }}" bs-tooltip></div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+</div>

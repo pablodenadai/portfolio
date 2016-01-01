@@ -1,0 +1,19 @@
+<div class="container projects">
+	<h2>Projects I have worked on</h2>
+
+	<div class="row no-padding">
+		<div class="col-xs-6 col-sm-6 col-md-3" ng-repeat="(key, value) in projects">
+			<div class="project">
+				<div class="img-wrapper">
+					<div class="img" ng-style="{ 'background-image': 'url(./images/projects/' + value + ')' }"></div>
+				</div>
+				
+				<p class="hidden-xs hidden-sm">{{ key }}</p>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+</div>
+

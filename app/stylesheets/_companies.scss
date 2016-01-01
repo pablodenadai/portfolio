@@ -1,0 +1,19 @@
+@import "functions";
+
+.companies {
+	.row {
+		margin-bottom: em(25);
+
+		.company {
+			margin-bottom: em(25);
+
+			.img {
+				width: 100%;
+				height: em(55);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: 50%;
+			}
+		}
+	}
+}

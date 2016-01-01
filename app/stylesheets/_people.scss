@@ -1,0 +1,25 @@
+@import "functions";
+
+.people {
+	.row {
+		margin-bottom: em(10);
+
+		.person {
+			margin-bottom: em(30);
+
+			.media {
+				.media-object {
+					width: em(75);
+					height: em(75);
+					background-size: cover;
+					background-position: 50%;
+					background-repeat: no-repeat;
+				}
+
+				p {
+					font-size: em(16);
+				}
+			}
+		}
+	}
+}

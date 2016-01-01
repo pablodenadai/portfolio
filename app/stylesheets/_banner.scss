@@ -1,0 +1,62 @@
+@import "functions";
+
+.banner {
+	color: #fff;
+	background-image: url('./images/jumbotron/1.jpg');
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: em(50);
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: em(30);
+	overflow: overlay;
+
+	h1 {
+		font-size: em(60);
+		font-weight: 700;
+		position: relative;
+	}
+
+	h3 {
+		font-weight: 100;
+		margin: 0;
+		position: relative;
+	}
+
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	// Bootstrap Fix
+	@media (min-width: 768px) {
+		.container {
+			width: 100%;
+		}
+	}
+	@media (min-width: 1200px) {
+		.container {
+			width: 970px;
+		}
+	}
+
+	.status {
+		p {
+			font-size: em(20);
+			font-weight: 100;
+			margin: 0;
+		}
+
+		.fa-circle {
+			&.red {
+				color: #FF3223;
+			}
+
+			&.green {
+				color: #32C819;
+			}
+		}
+	}
+}

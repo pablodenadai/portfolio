@@ -1,0 +1,20 @@
+<div class="container people">
+	<h2>People I have worked with</h2>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-4" ng-repeat="item in people">
+			<div class="person">
+				<div class="media">
+					<div class="media-object img-circle pull-left" ng-style="{ 'background-image': 'url(./images/people/' + item.photo + ')' }"></div>
+					<div class="media-body">
+						<h4 class="media-heading">{{ item.title }}</h4>
+						<h5 class="media-heading"><i>{{ item.subtitle }}</i></h5>
+						{{ item.description }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+</div>

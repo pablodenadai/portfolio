@@ -1,0 +1,8 @@
+{
+	"globalstrict": true,
+	"globals": {
+		"angular": true,
+		"window": true,
+		"console": true
+	}
+}

@@ -1,0 +1,22 @@
+<div class="container technologies">
+	<h2>Technologies I use</h2>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 col-md-2" ng-repeat="key in technologies | keys">
+			<div class="technology">
+				<div class="img" ng-style="{ 'background-image': 'url(./images/technologies/' + technologies[key] + ')' }" data-title="{{ key }}" bs-tooltip></div>
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+	<h2>Currently exploring</h2>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 col-md-2" ng-repeat="key in experiments | keys">
+			<div class="technology">
+				<div class="img" ng-style="{ 'background-image': 'url(./images/technologies/' + experiments[key] + ')' }" data-title="{{ key }}" bs-tooltip></div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+</div>

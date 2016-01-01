@@ -1,0 +1,16 @@
+.footer {
+	background: #444;
+	background-image: linear-gradient(#2e3137, #3e4148);
+	box-sizing: border-box;
+	color: #fff;
+	padding: em(70) 0;
+	width: 100%;
+
+	h1 {
+		font-weight: 100;
+	}
+
+	.fa {
+		font-size: em(17);
+	}
+}

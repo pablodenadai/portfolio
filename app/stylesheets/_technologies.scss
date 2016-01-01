@@ -1,0 +1,19 @@
+@import "functions";
+
+.technologies {
+	.row {
+		margin-bottom: em(30);
+
+		.technology {
+			margin-bottom: em(20);
+			
+			.img {
+				width: 100%;
+				height: em(100);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: 50%;
+			}
+		}
+	}
+}

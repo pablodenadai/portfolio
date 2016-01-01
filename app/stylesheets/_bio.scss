@@ -1,0 +1,12 @@
+@import "functions";
+
+.bio {
+	h1 {
+		font-weight: 100;
+
+		span {
+			display: block;
+			margin-bottom: em(10);
+		}
+	}
+}
