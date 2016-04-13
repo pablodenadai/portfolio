@@ -66,13 +66,13 @@ angular.module('portfolio').controller('MainCtrl', function($scope, $anchorScrol
 		'RxJS': 'rxjs.svg',
 		'BackboneJS': 'backbonejs.png',
 		'NodeJS': 'nodejs.png',
-		'NPM': 'npm.png',
-		'Browserify': 'browserify.png',
 		'Express': 'express.png',
 		'MongoDB': 'mongodb.png',
+		'NPM': 'npm.png',
+		'Browserify': 'browserify.png',
 		'Yeoman': 'yeoman.png',
-		'Grunt': 'grunt.png',
 		'Gulp': 'gulp.png',
+		'Grunt': 'grunt.png',
 		'Bower': 'bower.png',
 		'Bootstrap': 'bootstrap.png',
 		'SASS Lang': 'sass.png',
@@ -85,7 +85,8 @@ angular.module('portfolio').controller('MainCtrl', function($scope, $anchorScrol
 
 	$scope.experiments = {
 		'React': 'react.png',
-		'D3': 'd3.svg'
+		'D3': 'd3.svg',
+		'Spring4': 'spring.png'
 	};
 
 });
