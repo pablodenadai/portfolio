@@ -37,30 +37,30 @@ gulp.task('templates', function() {
 		.pipe(gulp.dest('./build'));
 });
 
-gulp.task('scripts-vendor', function() {
-	// Concatenate vendor script files
-	gulp.src([
-		'!./bower_components/**/*.min.js',
-		'!./bower_components/**/Gruntfile.js',
-		'!./bower_components/**/gulpfile.js',
-
-		'./bower_components/angular/**/*.js',
-		'./bower_components/angular-route/**/*.js',
-		'./bower_components/angular-sanitize/**/*.js',
-		'./bower_components/angular-scroll/**/*.js',
-		'./bower_components/angular-touch/**/*.js',
-
-		'./bower_components/angular-strap/dist/modules/dimensions.js',
-		'./bower_components/angular-strap/dist/modules/tooltip.js',
-		'./bower_components/angular-strap/dist/modules/tooltip.tpl.js',
-
-		'./bower_components/viewport-units-buggyfill/**/*.js'
-
-	])
-		.pipe(plugins.concat('lib.js'))
-		.pipe(plugins.uglify())
-		.pipe(gulp.dest('./build'));
-});
+// gulp.task('scripts-vendor', function() {
+// 	// Concatenate vendor script files
+// 	gulp.src([
+// 		'!./bower_components/**/*.min.js',
+// 		'!./bower_components/**/Gruntfile.js',
+// 		'!./bower_components/**/gulpfile.js',
+//
+// 		'./bower_components/angular/**/*.js',
+// 		'./bower_components/angular-route/**/*.js',
+// 		'./bower_components/angular-sanitize/**/*.js',
+// 		'./bower_components/angular-scroll/**/*.js',
+// 		'./bower_components/angular-touch/**/*.js',
+//
+// 		'./bower_components/angular-strap/dist/modules/dimensions.js',
+// 		'./bower_components/angular-strap/dist/modules/tooltip.js',
+// 		'./bower_components/angular-strap/dist/modules/tooltip.tpl.js',
+//
+// 		'./bower_components/viewport-units-buggyfill/**/*.js'
+//
+// 	])
+// 		.pipe(plugins.concat('lib.js'))
+// 		// .pipe(plugins.uglify())
+// 		.pipe(gulp.dest('./build'));
+// });
 
 gulp.task('css-vendor', function() {
 	// Concatenate vendor css files
@@ -136,7 +136,7 @@ gulp.task('default', [
 	'css',
 	'templates',
 	'copy',
-	'scripts-vendor',
+	// 'scripts-vendor',
 	'css-vendor',
 	'fonts-vendor',
 	'watch',

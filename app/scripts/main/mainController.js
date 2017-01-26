@@ -60,33 +60,27 @@ angular.module('portfolio').controller('MainCtrl', function($scope, $anchorScrol
 		'ECMAScript 6': 'es6.png',
 		'HTML5': 'html5.png',
 		'CSS3': 'css3.png',
+		'ReactJS': 'react.png',
+		'Redux': 'redux.png',
+		'GraphQL': 'graphql.png',
+		'RxJS': 'rxjs.svg',
 		'AngularJS': 'angularjs.png',
 		'Angular2': 'angular2.png',
+		'Protractor': 'protractor.png',
 		'TypeScript': 'typescript.png',
-		'RxJS': 'rxjs.svg',
-		'BackboneJS': 'backbonejs.png',
 		'NodeJS': 'nodejs.png',
+		'NPM': 'npm.png',
 		'Express': 'express.png',
 		'MongoDB': 'mongodb.png',
-		'NPM': 'npm.png',
-		'Browserify': 'browserify.png',
-		'Yeoman': 'yeoman.png',
 		'Gulp': 'gulp.png',
-		'Grunt': 'grunt.png',
-		'Bower': 'bower.png',
-		'Bootstrap': 'bootstrap.png',
+		'Webpack': 'webpack.svg',
 		'SASS Lang': 'sass.png',
-		'Protractor': 'protractor.png',
-		'Jasmine': 'jasmine.svg',
-		'Mocha': 'mocha.png',
-		'Chai': 'chai.jpg',
+		'AVA': 'ava.png',
 		'Git': 'git.png'
 	};
 
 	$scope.experiments = {
-		'React': 'react.png',
-		'D3': 'd3.svg',
-		'Spring4': 'spring.png'
+		'D3': 'd3.svg'
 	};
 
 });
